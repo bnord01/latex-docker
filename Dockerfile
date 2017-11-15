@@ -1,9 +1,6 @@
-FROM debian:stretch-slim
+FROM tianon/latex
 
 RUN apt-get update && apt-get install -y \
-		biber \
-		latexmk \
-		make \
+		curl \
 		rubber \
-		texlive-full \
 	&& rm -rf /var/lib/apt/lists/*

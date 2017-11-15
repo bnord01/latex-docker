@@ -1,9 +1,6 @@
 # Docker Container for LaTeX Compilation
 
-Based on `debian:strech-slim`, includes:
+Based on `tianon/latex` but also includes:
 
-- `biber`
-- `latexmk`
-- `make`
+- `curl`
 - `rubber`
-- `texlive-full`
